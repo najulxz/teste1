@@ -19,6 +19,6 @@ documen.getElementById( "btn-soma" ).addEventListener( "click" , somar);
 function somar()
 {
     let conta = document.getElementById( "num1" ).value;
-    document.getElementById( "num2" ).innerHTML = "soma:" + somar;
-    document.getElementById( "resultado").value= "";
+    document.getElementById( "num2" ).innerHTML = "";
+    document.getElementById( "resultado").value= "num1"+"num2"="resultado";
 }
