@@ -20,5 +20,5 @@ function somar()
 {
     let conta = document.getElementById( "num1" ).value;
     document.getElementById( "num2" ).innerHTML = "";
-    document.getElementById( "resultado").value= "num1"+"num2"="resultado";
+    document.getElementById( "resultado").value= "num1"+"num2";
 }
