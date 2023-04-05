@@ -15,10 +15,10 @@ function exibenome()
 }
 
 documen.getElementById( "btn-soma" ).addEventListener( "click" , somar);
-
+  
 function somar()
 {
-    let conta = document.getElementById( "num1" ).value;
+    let num1 = document.getElementById( "num1" ).value;
     document.getElementById( "num2" ).innerHTML = "";
-    document.getElementById( "resultado").value= "num1"+"num2";
+    document.getElementById( "resultado1").value= "num1"+"num2";
 }
